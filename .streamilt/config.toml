@@ -1,7 +1,6 @@
 [theme]
-# Colores principales (morado pastel)
-primaryColor="#C8A2FF"  # morado pastel suave
-backgroundColor="#FFF6FF"  # rosadito muy suave pastel
-secondaryBackgroundColor="#F7E9FF"  # lila super claro
-textColor="#4A3260"  # morado oscuro suave para leer
-font="monospace"
+primaryColor="#B38BFF"
+backgroundColor="#FFFFFF"
+secondaryBackgroundColor="#F3E8FF"
+textColor="#3B2B57"
+font="serif"
