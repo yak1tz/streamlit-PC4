@@ -1,7 +1,7 @@
 [theme]
-# Personalización del tema
-primaryColor="#6C63FF"
-backgroundColor="#FFFFFF"
-secondaryBackgroundColor="#F0F2F6"
-textColor="#000000"
-font="sans serif"
+# Colores principales (morado pastel)
+primaryColor="#C8A2FF"  # morado pastel suave
+backgroundColor="#FFF6FF"  # rosadito muy suave pastel
+secondaryBackgroundColor="#F7E9FF"  # lila super claro
+textColor="#4A3260"  # morado oscuro suave para leer
+font="monospace"
