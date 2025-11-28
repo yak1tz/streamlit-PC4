@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5e80c19ee806c2b0cad2e412d81e7cfa {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_5e80c19ee806c2b0cad2e412d81e7cfa" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_5e80c19ee806c2b0cad2e412d81e7cfa = L.map(
+                "map_5e80c19ee806c2b0cad2e412d81e7cfa",
+                {
+                    center: [20.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 2,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_674b25f65273179001534ceaafead166 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_674b25f65273179001534ceaafead166.addTo(map_5e80c19ee806c2b0cad2e412d81e7cfa);
+        
+    
+            var marker_70bf2022a76f9ec2c890c6e95ca67e1c = L.marker(
+                [34.0522, -118.2437],
+                {
+}
+            ).addTo(map_5e80c19ee806c2b0cad2e412d81e7cfa);
+        
+    
+        var popup_e3af9c99d1868657fde1e793e63fca66 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_05d382e6cffa779c8873dcd6d0c8d168 = $(`<div id="html_05d382e6cffa779c8873dcd6d0c8d168" style="width: 100.0%; height: 100.0%;"><b>Inception</b><br>Director: Christopher Nolan<br>Año: 2010<br>Género: Ciencia ficción<br>Lugar: Los Ángeles<br>País: EE.UU.</div>`)[0];
+                popup_e3af9c99d1868657fde1e793e63fca66.setContent(html_05d382e6cffa779c8873dcd6d0c8d168);
+            
+        
+
+        marker_70bf2022a76f9ec2c890c6e95ca67e1c.bindPopup(popup_e3af9c99d1868657fde1e793e63fca66)
+        ;
+
+        
+    
+    
+            marker_70bf2022a76f9ec2c890c6e95ca67e1c.bindTooltip(
+                `<div>
+                     Inception
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b74eadc50d04b0d01c5f1234cb6406df = L.marker(
+                [37.5665, 126.978],
+                {
+}
+            ).addTo(map_5e80c19ee806c2b0cad2e412d81e7cfa);
+        
+    
+        var popup_3e9ccc3d50c53eb5c0d82bdafa62a66e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a751617b4b2b878e3728602bee775f39 = $(`<div id="html_a751617b4b2b878e3728602bee775f39" style="width: 100.0%; height: 100.0%;"><b>Parasite</b><br>Director: Bong Joon-ho<br>Año: 2019<br>Género: Drama / Suspenso<br>Lugar: Seúl<br>País: Corea del Sur</div>`)[0];
+                popup_3e9ccc3d50c53eb5c0d82bdafa62a66e.setContent(html_a751617b4b2b878e3728602bee775f39);
+            
+        
+
+        marker_b74eadc50d04b0d01c5f1234cb6406df.bindPopup(popup_3e9ccc3d50c53eb5c0d82bdafa62a66e)
+        ;
+
+        
+    
+    
+            marker_b74eadc50d04b0d01c5f1234cb6406df.bindTooltip(
+                `<div>
+                     Parasite
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_90b038642890102999cbb22b9b2fda60 = L.marker(
+                [41.9028, -71.404],
+                {
+}
+            ).addTo(map_5e80c19ee806c2b0cad2e412d81e7cfa);
+        
+    
+        var popup_d4943ddc8a7dec8d37e518d202f9e240 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_68c5eb1a3132d637aa8a07cb406ca378 = $(`<div id="html_68c5eb1a3132d637aa8a07cb406ca378" style="width: 100.0%; height: 100.0%;"><b>Titanic</b><br>Director: James Cameron<br>Año: 1997<br>Género: Romance / Drama<br>Lugar: Nueva Escocia<br>País: EE.UU.</div>`)[0];
+                popup_d4943ddc8a7dec8d37e518d202f9e240.setContent(html_68c5eb1a3132d637aa8a07cb406ca378);
+            
+        
+
+        marker_90b038642890102999cbb22b9b2fda60.bindPopup(popup_d4943ddc8a7dec8d37e518d202f9e240)
+        ;
+
+        
+    
+    
+            marker_90b038642890102999cbb22b9b2fda60.bindTooltip(
+                `<div>
+                     Titanic
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d9edce4797266bd411af215b5a62076a = L.marker(
+                [31.9686, -99.9018],
+                {
+}
+            ).addTo(map_5e80c19ee806c2b0cad2e412d81e7cfa);
+        
+    
+        var popup_0c5d779a4223b609707d4b92f6b97a08 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8d9ac1b3f1432f98fb5e401fd05ee376 = $(`<div id="html_8d9ac1b3f1432f98fb5e401fd05ee376" style="width: 100.0%; height: 100.0%;"><b>Interstellar</b><br>Director: Christopher Nolan<br>Año: 2014<br>Género: Ciencia ficción<br>Lugar: Texas<br>País: EE.UU.</div>`)[0];
+                popup_0c5d779a4223b609707d4b92f6b97a08.setContent(html_8d9ac1b3f1432f98fb5e401fd05ee376);
+            
+        
+
+        marker_d9edce4797266bd411af215b5a62076a.bindPopup(popup_0c5d779a4223b609707d4b92f6b97a08)
+        ;
+
+        
+    
+    
+            marker_d9edce4797266bd411af215b5a62076a.bindTooltip(
+                `<div>
+                     Interstellar
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f9671cc79717bed1be2ae9b29f363d32 = L.marker(
+                [19.4326, -99.1332],
+                {
+}
+            ).addTo(map_5e80c19ee806c2b0cad2e412d81e7cfa);
+        
+    
+        var popup_3dd3c28e03b6719fd11e0732eb63874e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aac1f8f356351b9ccf0cb6b5ef84e512 = $(`<div id="html_aac1f8f356351b9ccf0cb6b5ef84e512" style="width: 100.0%; height: 100.0%;"><b>Roma</b><br>Director: Alfonso Cuarón<br>Año: 2018<br>Género: Drama<br>Lugar: Ciudad de México<br>País: México</div>`)[0];
+                popup_3dd3c28e03b6719fd11e0732eb63874e.setContent(html_aac1f8f356351b9ccf0cb6b5ef84e512);
+            
+        
+
+        marker_f9671cc79717bed1be2ae9b29f363d32.bindPopup(popup_3dd3c28e03b6719fd11e0732eb63874e)
+        ;
+
+        
+    
+    
+            marker_f9671cc79717bed1be2ae9b29f363d32.bindTooltip(
+                `<div>
+                     Roma
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
