@@ -195,19 +195,19 @@ else:
 
     # Mostramos el gráfico seleccionado
     if grafico_seleccionado == 'Gráfico de barras del promedio de tarjetas rojas recibidas por equipo como local':
-        st.markdown("<div style='text-align: justify; font-size: 20px;'>Es un gráfico donde se muestra el promedio de tarjetas rojas que han recibido los equipos de España en La Liga 24/25</div>", unsafe_allow_html=True)
+        st.markdown("<div style='text-align: justify; font-size: 20px;'>Es un gráfico donde se muestra el promedio de tarjetas rojas que han recibido los equipos de España en La Liga 24/25. Se observa que entre los equipos con mayor promedio de tarjetas rojas como local destacan el Alavés, el Leganés y el Sevilla.</div>", unsafe_allow_html=True)
         st.image("gráfico.png", caption='Gráfico del promedio de tarjetas rojas', width=500)
         pass
     elif grafico_seleccionado == 'Gráfico de barras de goles anotados del Barcelona como local':
-        st.markdown("<div style='text-align: justify; font-size: 20px;'>Es el gráfico de todos los goles anotados de FC Barcelona como local en La Liga 24/25</div>", unsafe_allow_html=True)
+        st.markdown("<div style='text-align: justify; font-size: 20px;'>Es el gráfico de todos los goles anotados de FC Barcelona como local en La Liga 24/25. Escogí este gráfico debido a que el Barca es mi equipo favorito de la liga española, además en esa temporada ellos ganaron La Liga española.</div>", unsafe_allow_html=True)
         st.image("futbol.png", caption='Gráfico de todos los goles del Barcelona como local', width=500)
         pass
     elif grafico_seleccionado == 'Gráfico pastel comparando los resultados del Real Madrid como visitante y local':
-        st.markdown("<div style='text-align: justify; font-size: 20px;'>Son dos gráficos comparando cómo fue el desempeño del Real Madrid entre local y visitante en La Liga 24/25</div>", unsafe_allow_html=True)
+        st.markdown("<div style='text-align: justify; font-size: 20px;'>Son dos gráficos comparando cómo fue el desempeño del Real Madrid entre local y visitante en La Liga 24/25. Esa temporada no fue la mejor del Real Madrid a comparación de otros años.</div>", unsafe_allow_html=True)
         st.image("grafico_pastel.png", caption='Gráfico pastel del Real Madrid', width=500)
         pass
     elif grafico_seleccionado == 'Mapa de mis pelis favoritas':
-        st.markdown("<div style='text-align: justify; font-size: 20px;'>Este es un mapa interactivo dónde se puede ubicar el país, el director, el año de estreno y a qué género pertenecen mis 5 películas favoritas. </div>", unsafe_allow_html=True)
+        st.markdown("<div style='text-align: justify; font-size: 20px;'>Este es un mapa interactivo dónde se puede ubicar el país, el director, el año de estreno y a qué género pertenecen mis 5 películas favoritas. Fue muy divertido hacer este mapa, ya que a diferencia de otras, se puede elegir e interactuar. </div>", unsafe_allow_html=True)
         # Si "mapa_cusco.html" es un archivo HTML (no una imagen), debes mostrarlo con st.components.v1.html
         import streamlit.components.v1 as components
         with open("mapa_ejemplo.html", "r", encoding="utf-8") as f:
