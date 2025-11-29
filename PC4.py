@@ -199,7 +199,7 @@ else:
         st.image("gráfico.png", caption='Gráfico del promedio de tarjetas rojas', width=500)
         pass
     elif grafico_seleccionado == 'Gráfico de barras de goles anotados del Barcelona como local':
-        st.markdown("<div style='text-align: justify; font-size: 20px;'>Es el gráfico de todos los goles anotados de FC Barcelona como local en La Liga 24/25. Escogí este gráfico debido a que el Barca es mi equipo favorito de la liga española, además en esa temporada ellos ganaron La Liga española.</div>", unsafe_allow_html=True)
+        st.markdown("<div style='text-align: justify; font-size: 20px;'>Es el gráfico de todos los goles anotados de FC Barcelona como local en La Liga 24/25. Escogí este gráfico debido a que el Barca es mi equipo favorito de la liga española, además en esa temporada ellos ganaron La Liga.</div>", unsafe_allow_html=True)
         st.image("futbol.png", caption='Gráfico de todos los goles del Barcelona como local', width=500)
         pass
     elif grafico_seleccionado == 'Gráfico pastel comparando los resultados del Real Madrid como visitante y local':
